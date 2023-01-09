@@ -11,6 +11,8 @@
 		314E7765296BDB8E003FF5B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314E7764296BDB8E003FF5B6 /* ContentView.swift */; };
 		314E7767296BDB8E003FF5B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314E7766296BDB8E003FF5B6 /* Assets.xcassets */; };
 		314E776A296BDB8E003FF5B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314E7769296BDB8E003FF5B6 /* Preview Assets.xcassets */; };
+		314E7772296BDC7D003FF5B6 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314E7771296BDC7D003FF5B6 /* View+Extension.swift */; };
+		314E7775296BDD36003FF5B6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314E7774296BDD36003FF5B6 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		314E7764296BDB8E003FF5B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		314E7766296BDB8E003FF5B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		314E7769296BDB8E003FF5B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		314E7771296BDC7D003FF5B6 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		314E7774296BDD36003FF5B6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		314E7761296BDB8E003FF5B6 /* PopUpExample */ = {
 			isa = PBXGroup;
 			children = (
+				314E7773296BDD2D003FF5B6 /* Model */,
+				314E7770296BDC69003FF5B6 /* Extensions */,
 				314E7762296BDB8E003FF5B6 /* PopUpExampleApp.swift */,
 				314E7764296BDB8E003FF5B6 /* ContentView.swift */,
 				314E7766296BDB8E003FF5B6 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				314E7769296BDB8E003FF5B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		314E7770296BDC69003FF5B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				314E7771296BDC7D003FF5B6 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		314E7773296BDD2D003FF5B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				314E7774296BDD36003FF5B6 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314E7775296BDD36003FF5B6 /* Task.swift in Sources */,
 				314E7765296BDB8E003FF5B6 /* ContentView.swift in Sources */,
+				314E7772296BDC7D003FF5B6 /* View+Extension.swift in Sources */,
 				314E7763296BDB8E003FF5B6 /* PopUpExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
